@@ -13,7 +13,7 @@
 uint32_t millis;
 //uint32_t seconds;
 
-char oneMilliHasPassed;
+unsigned char oneMilliHasPassed;
 
 void initTimeCounting(void){
     setupWatchDogTimer();
